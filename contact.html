@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Car Rental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">CAR RENTAL</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#cars">Cars</a></li>
+                <li><a href="filter.html">Filter</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <input type="text" placeholder="Search cars..." class="search-box">
+                <a href="signin.html" class="btn">Sign In</a>
+                <a href="#signup" class="btn btn-primary">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-full-page">
+        <h2>Get In Touch With Us</h2>
+
+        <div class="contact-container">
+            <!-- Contact Info Cards -->
+            <div class="contact-info-full">
+                <div class="contact-item-full">
+                    <h3>📞 Phone</h3>
+                    <p>+1 (555) 123-4567</p>
+                    <p class="contact-subtext">Available 24/7</p>
+                </div>
+
+                <div class="contact-item-full">
+                    <h3>✉️ Email</h3>
+                    <p>info@carrental.com</p>
+                    <p class="contact-subtext">Reply within 2 hours</p>
+                </div>
+
+                <div class="contact-item-full">
+                    <h3>📍 Address</h3>
+                    <p>123 Main Street</p>
+                    <p>City, State 12345</p>
+                </div>
+
+                <div class="contact-item-full">
+                    <h3>🕐 Business Hours</h3>
+                    <p>Mon - Fri: 9 AM - 6 PM</p>
+                    <p>Sat - Sun: 10 AM - 4 PM</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <h3>Send us a Message</h3>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Message subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Car Rental. All rights reserved.</p>
+    </footer>
+</body>
+</html>

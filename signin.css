@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+      
+}
+.main{
+    height: 50wv;
+    width: 100wv;
+    border: 2px solid  rgba( 255, 255,255, 0.2);
+    background: rgb(32, 85, 131);
+    color: white;
+    
+    border-radius: 10px;
+    padding: 30px 20px;
+
+box-shadow: 10px 15px 20px rgba(0,0,0,0.3);
+background: transparent;
+ backdrop-filter: blur(20px);
+
+}
+.main h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: -20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.main .form-group{
+    height: 70%;
+    width: 100%;
+    margin: 10px 10px;
+    
+position: relative; 
+
+
+
+}
+.form-group input{
+    height: 40px;
+    width: 100%;
+   background: transparent;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 13px;
+    color: white;
+    
+}
+input::placeholder {
+
+    color: white;
+position: absolute;
+left: 12px;
+filter: brightness(50%);
+
+}
+.form-group i {
+    font-size: 10px;
+    position: absolute;
+filter: brightness(50%);
+    right: 20px;
+    top: 35px;
+    color: white;
+}
+
+.main .rem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+    font-size: 14px;
+
+}
+.main button{
+    height: 40px;
+    width: 95%;
+    margin: 20px 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+    color: rgb(42, 88, 128);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.no{
+    text-align: center;
+    font-size: 14px;
+    margin: 0px;
+}
+.no a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+button:hover{
+    background: rgb(200, 200, 200);
+}
+button:focus{
+    transform: scale(0.98);
+}
+.form-group input:focus{
+   outline: none;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+ .form-group input:hover{
+    transform: scale(1.08) ;
+} 
